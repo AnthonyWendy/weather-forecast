@@ -16,7 +16,7 @@ Também será necessário:
 
 -   Criar um banco de dados no MySQL chamado **`weather_forecast`**
 -   Criar uma conta no [Weatherstack](https://weatherstack.com/) e gerar
-    um token de API
+    um token de API e inserir este toke na constante KEY_WEATHERSTACK em .env
 -   Definir o token no arquivo `.env` do Laravel:
 
 ``` env
@@ -27,6 +27,8 @@ DB_PORT=3306
 DB_DATABASE=weather_forecast
 DB_USERNAME=root
 DB_PASSWORD=
+
+KEY_WEATHERSTACK=<token_da_Weatherstack>
 ```
 
 ## ⚙️ Instalação
