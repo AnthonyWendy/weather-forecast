@@ -36,7 +36,7 @@ KEY_WEATHERSTACK=<token_da_Weatherstack>
 Clone o repositório e instale as dependências:
 
 ``` bash
-git clone https://github.com/seuusuario/weather-forecast.git
+git clone https://github.com/AnthonyWendy/weather-forecast.git
 cd weather-forecast
 composer install
 cp .env.example .env
